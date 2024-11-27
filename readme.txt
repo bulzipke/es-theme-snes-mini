@@ -1,4 +1,4 @@
-Theme designed by Ruckage
+Original Theme designed by Ruckage
 Version 1.10
 30/09/2018
 
