@@ -54,6 +54,16 @@ author:			ruckage
 		<include name="bead" displayName="bead">./rating/bead.xml</include>
 	</subset>
 	
+	<!-- Choose your theme style -->	
+	<subset name="style" displayName="STYLE">
+		<include name="snes_europe" displayName="snes_europe">./style/snes_europe.xml</include>
+		<include name="snes_usa" displayName="snes_usa">./style/snes_usa.xml</include>
+		<include name="nes_rich_europe" displayName="nes_rich_europe">./style/nes_rich_europe.xml</include>
+		<include name="nes_rich_usa" displayName="nes_rich_usa">./style/nes_rich_usa.xml</include>
+		<include name="nes_simple_europe" displayName="nes_simple_europe">./style/nes_simple_europe.xml</include>
+		<include name="nes_simple_usa" displayName="nes_simple_usa">./style/nes_simple_usa.xml</include>
+	</subset>
+	
 	<!-- Choose your background (For the available options see the jpg files named ## BACKGROUND GUIDE ##) -->	
 	<subset name="background" displayName="BACKGROUND">
 		<include name="nes_mini" displayName="nes_mini">./background/nes_mini.xml</include>
@@ -104,16 +114,6 @@ author:			ruckage
 		<include name="neon_white_spectrum_blur" displayName="neon_white_spectrum_blur">./background/neon_white_spectrum_blur.xml</include>
 		<include name="neon_yellow_blue" displayName="neon_yellow_blue">./background/neon_yellow_blue.xml</include>
 		<include name="neon_yellow_blue_blur" displayName="neon_yellow_blue_blur">./background/neon_yellow_blue_blur.xml</include>
-	</subset>
-	
-	<!-- Choose your theme style -->	
-	<subset name="style" displayName="STYLE">
-		<include name="snes_europe" displayName="snes_europe">./style/snes_europe.xml</include>
-		<include name="snes_usa" displayName="snes_usa">./style/snes_usa.xml</include>
-		<include name="nes_rich_europe" displayName="nes_rich_europe">./style/nes_rich_europe.xml</include>
-		<include name="nes_rich_usa" displayName="nes_rich_usa">./style/nes_rich_usa.xml</include>
-		<include name="nes_simple_europe" displayName="nes_simple_europe">./style/nes_simple_europe.xml</include>
-		<include name="nes_simple_usa" displayName="nes_simple_usa">./style/nes_simple_usa.xml</include>
 	</subset>
 	
 	<!-- Choose your resolution -->	
