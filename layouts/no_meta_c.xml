@@ -9,74 +9,79 @@ author:			ruckage
 	<variables>
 		<listWidth>0.7</listWidth>
 		<wide>_widest</wide>
+		<listx>0.15</listx>
 	</variables>
 	
 	<include>./setup.xml</include>	
 	
-	<include>./rating_pos_4.xml</include>	
-	
-	<include>./published_pos_1.xml</include>
-	
-	<include>./boxart_pos_2.xml</include>
 	
     <view name="basic, detailed, video">	
 	
-		<image name="bar_2, bar_3" extra="true">
+		<image name="bar_1, bar_2, bar_3, bar_4" extra="true">
 			<pos>2 2</pos>
 			<size>0 0.1111111111111111</size>
 			<color>000000</color>
 		</image>	
 
-		<image name="bar_2_overlay, bar_3_overlay" extra="true">
+		<image name="bar_1_overlay, bar_2_overlay, bar_3_overlay, bar_4_overlay" extra="true">
 			<pos>2 1</pos>
 			<size>0 0.1111111111111111</size>
 			<color>000000</color>
 		</image>			
 
-		<image name="right_window_border" extra="true">
+		<image name="left_window_border, right_window_border" extra="true">
 			<pos>2 0.5</pos>
 			<origin>1 0.5</origin>
 			<color>c8c8c8</color>
 		</image>
 
 		
-		<image name="right_window_box" extra="true">
+		<image name="right_window_box, left_window_box" extra="true">
 			<pos>2 0.5</pos>
 			<size>0 0.4888888888888889</size>
 			<color>c8c8c8</color>
 		</image>
+		
+		<image name="missing_art" extra="true">
+			<pos>2 2</pos>
+		</image>
+		
+		<image name="md_image">
+			<pos>2 2</pos>
+		</image>
+		
+		
+		<video name="md_video">
+			<pos>2 2</pos>
+		</video>
 
 		<text name="md_description">
 			<pos>2 1</pos>
 		</text>
 		
+		<image name="player_box" extra="true">
+			<pos>2 2</pos>
+		</image>
 		
-		<text name="developer_label" extra="true">
+		
+		<text name="developer_label, publisher_label, genre_label, rating_label, played_label" extra="true">
 			<pos>2 1</pos>
 		</text>		
 
-		<text name="genre_label" extra="true">
-			<pos>2 1</pos>
-			<alignment>center</alignment>
-			<text>Genre</text>
-		</text>
 		
-		<text name="md_genre">
+		<text name="md_genre, md_developer, md_publisher, md_playcount, md_players">
 			<pos>2 1</pos>
 		</text>
 		
-		<text name="md_developer">
-			<pos>2 1</pos>
-		</text>
 		
 		<image name="gamelist_background" extra="true">
 			<origin>0.5 0.5</origin>
-			<pos>0.6395833333333333 0.5</pos>
+			<pos>0.5 0.5</pos>
 		</image>
 		
 		<image name="gamelist_outline" extra="true">
 			<origin>0.5 0.5</origin>
-			<pos>0.6395833333333333 0.5</pos>
+			<pos>0.5 0.5</pos>
 		</image>
 
 		<textlist name="gamelist">

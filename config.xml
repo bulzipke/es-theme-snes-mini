@@ -36,10 +36,6 @@ author:			ruckage
 		<include name="no_meta_a" displayName="no_meta_a">./layouts/no_meta_a.xml</include>
 		<include name="no_meta_b" displayName="no_meta_b">./layouts/no_meta_b.xml</include>
 		<include name="no_meta_c" displayName="no_meta_c">./layouts/no_meta_c.xml</include>
-		<include name="no_meta_d" displayName="no_meta_d">./layouts/no_meta_d.xml</include>
-		<include name="no_meta_e" displayName="no_meta_e">./layouts/no_meta_e.xml</include>
-		<include name="no_meta_f" displayName="no_meta_f">./layouts/no_meta_f.xml</include>
-		<include name="no_meta_g" displayName="no_meta_g">./layouts/no_meta_g.xml</include>
 	</subset>
 	
 	<!-- Choose how number of players is displayed -->	

@@ -8,16 +8,17 @@ author:			ruckage
 	
 	<variables>
 		<listWidth>0.7</listWidth>
-		<wide>_wider</wide>
+		<wide>_wide</wide>
+		<listx>0.0104166666666667</listx>
 	</variables>
 	
 	<include>./setup.xml</include>	
 	
-	<include>./rating_pos_4.xml</include>	
+	<include>./rating_pos_8.xml</include>	
 	
-	<include>./published_pos_1.xml</include>
+	<include>./published_pos_5.xml</include>
 	
-	<include>./boxart_pos_2.xml</include>
+	<include>./boxart_pos_5.xml</include>
 	
     <view name="basic, detailed, video">	
 	
@@ -33,7 +34,7 @@ author:			ruckage
 			<color>000000</color>
 		</image>			
 
-		<image name="right_window_border" extra="true">
+		<image name="left_window_border" extra="true">
 			<pos>2 0.5</pos>
 			<origin>1 0.5</origin>
 			<color>c8c8c8</color>
@@ -71,16 +72,16 @@ author:			ruckage
 		
 		<image name="gamelist_background" extra="true">
 			<origin>0.5 0.5</origin>
-			<pos>0.6395833333333333 0.5</pos>
+			<pos>0.3604166666666667 0.5</pos>
 		</image>
 		
 		<image name="gamelist_outline" extra="true">
 			<origin>0.5 0.5</origin>
-			<pos>0.6395833333333333 0.5</pos>
+			<pos>0.3604166666666667 0.5</pos>
 		</image>
 
 		<textlist name="gamelist">
-			<horizontalMargin>0.0583333333333333</horizontalMargin>
+			<horizontalMargin>0.1</horizontalMargin>
 		</textlist>		
 
 	</view>

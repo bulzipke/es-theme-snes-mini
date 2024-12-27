@@ -49,8 +49,8 @@ author:			ruckage
 		</image>
 		
 		<image name="gamelist_outline" extra="true">
-			<origin>1 0.5</origin>
-			<pos>0.9805555555555556 0.5</pos>
+			<origin>0.5 0.5</origin>
+			<pos>0.7055555555555556 0.5</pos>
 		</image>
 	
 		<image name="md_image">
