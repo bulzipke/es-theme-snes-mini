@@ -147,6 +147,9 @@
 			<pos>0.1 0.044</pos>
 			<size>0 0 </size>
 		</text>
+		
+		<batteryIndicator name="batteryIndicator" visible="true">
+			<pos>0.86 0.044</pos>
+		</batteryIndicator>
 	</view>
-	
 </theme>
